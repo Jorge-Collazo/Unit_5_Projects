@@ -59,7 +59,7 @@ header > nav a{
 
 /* Horizontal Navigation List Styles */
 
-nav > ul > li{
+.horizontal li{
    display: block;
    width: 12.5%;
    float: left;
@@ -126,4 +126,6 @@ hr{
 
 /* Footer Styles */
 
-
+footer{
+   clear: both;
+}
