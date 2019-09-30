@@ -65,28 +65,28 @@ a{
    position: absolute;
 }
 #marker1{
-   top: ;
-   left: ;
+   top: 220px;
+   left: 340px;
 }
 #marker2{
-   top: ;
-   left: ;
+   top: 194px;
+   left: 358px;
 }
 #marker3{
-   top: ;
-   left: ;
+   top: 202px;
+   left: 400px;
 }
 #marker4{
-   top: ;
-   left: ;
+   top: 217px;
+   left: 452px;
 }
 #marker5{
-   top: ;
-   left: ;
+   top: 229px;
+   left: 498px;
 }
 #marker6{
-   top: ;
-   left: ;
+   top: 246px;
+   left: 544px;
 }
 
 /* Map Information Styles */
@@ -94,4 +94,6 @@ a{
 div.mapInfo{
    display: none;
 }
-
+a.battleMarkers:hover + div.mapInfo{
+   display: block;
+}
